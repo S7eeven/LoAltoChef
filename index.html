@@ -3,9 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LoAltoChef</title>
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 <body>
-    
+    <!-- ENCABEZADO MENU IMG -->
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
+            </nav>
+            <div class="textos">
+                <h1 class="nombre"> Lo Alto <span>Chef</span></h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            </div>
+        </div>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <section class="main">
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/acerca-de.jpg" alt="">
+                </div>
+                <article>
+                    <h3>Acerca de</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati pariatur, nostrum quibusdam ipsa.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia accusamus ab quis voluptatibus at vero quia excepturi 
+                        odit illo distinctio doloremque porro ullam error, earum dignissimos. Dolores, alias doloremque.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">Menu del Dia</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">De Comer</p>
+                            <div class="platillo">
+                                <p class="nombre">Sopa de verduras</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Encebollado</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Fritada a la aji</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">KFC</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="categoria">De Tomar</p>
+                            <div class="platillo">
+                                <p class="nombre">Agua</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Soda</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Jugo de limon</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Jugo xxx</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/5.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/7.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicacion</h3>
+                <div class="direccion">
+                    <p class="calle"> luz roja</p>
+                    <p class="telefono">099556328</p>
+                    <p class="correo">Chef@gmail.com</p>
+                </div>
+                <div class="horario">
+                    <h4>Horario</h4>
+                    <p class="entre-semana">Lunes a Viernes <br> 8:00am - 9:00pm </p>
+                    <p class="fin-semana">Sabado a Domingo <br> 10:00am - 8:00pm </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.9056862360353!2d-78.4723819813675!3d-0.10692690806869265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMDYnMjYuNSJTIDc4wrAyOCcyMi45Ilc!5e0!3m2!1ses!2sec!4v1606860908456!5m2!1ses!2sec" width="1600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+    </section>
+    <footer>
+        <div class="contenedor">
+            <div class="copyrigth">
+                <p>LoAltoChef Lo mejor de la cocina ecuatoriana</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
